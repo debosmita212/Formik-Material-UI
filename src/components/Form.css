@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Caprasimo&family=Kanit&display=swap");
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.box-style {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Kanit', sans-serif;
+
+}
+.form-main {
+  margin-top: 8px;
+  width: 30%;
+  border: 2px solid black;
+  border-radius: 50px;
+  background-color: rgb(235, 225, 209);
+  
+}
+
+@media (max-width:1200px) {
+  .form-main{
+    width: 50%;
+  }
+}
+@media (max-width:600px) {
+  .form-main{
+    width: 90%;
+  }
+}
+
